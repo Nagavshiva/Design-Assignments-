@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(150, 209, 211);
+}
+
+.bucket1,
+.bucket2 {
+  border: 2px solid red;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.button-click {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.button-clicks {
+  background-color: rgb(107, 199, 107);
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2,
+h4 {
+  text-align: center;
+
+}
+
+h4 {
+  cursor: pointer;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  margin-left: 110px;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: dodgerblue;
+  color: bisque;
+  border: none;
+  outline: none;
+}
+
+.selected {
+  background-color: #b50e8b;
+}
